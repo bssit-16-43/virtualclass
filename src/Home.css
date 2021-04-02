@@ -1,0 +1,20 @@
+html, body {
+  	height: 100%;
+}
+body {
+	margin: 0;
+	text-align: center;
+    color: whitesmoke;
+	background: rgb(34,193,195);
+    background: linear-gradient(0deg, #22c0c3 0%, rgba(45,53,253,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container2 {
+	padding-top: 100px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
