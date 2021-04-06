@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Input, Button, IconButton } from '@material-ui/core';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import { Input, Button } from '@material-ui/core';
 import "./Home.css"
 
 class Home extends Component {
@@ -31,7 +30,7 @@ class Home extends Component {
 				<div>
 					<h1 style={{ fontSize: "45px" , color:"whitesmoke" }}>GPGCS CLASS ROOM</h1>
 					<p style={{ fontWeight: "200" }}>Video and audio conferencing tool developed by </p>
-					<p style={{ fontWeight: "200" }}>Muhammad Shoaib Mamtaz (BSSIT.16.40)</p>
+					<p style={{ fontWeight: "200" }}>Muhammad Shoaib Mumtaz (BSSIT.16.40)</p>
 					<p style={{ fontWeight: "200" }}>Muhammad Hassan Shakeel (BSSIT.16.43)</p>
 				</div>
 
