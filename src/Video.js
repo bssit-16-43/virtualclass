@@ -456,20 +456,20 @@ class Video extends Component {
 				{this.state.askForUsername === true ?
 					<div>
 						<div style={{ width: "30%", height: "auto", padding: "20px", minWidth: "400px",
-								textAlign: "center", margin: "auto", marginTop: "50px", justifyContent: "center"}}>
+								textAlign: "center", margin: "auto", marginTop: "20px", justifyContent: "center"}}>
 							<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}>SET YOUR NAME HERE</p>
 							<Input placeholder="Username" value={this.state.username} onChange={e => this.handleUsername(e)} />
 							<Button variant="contained" color="primary" onClick={this.connect} style={{ margin: "20px" }}>Connect</Button>
 						</div>
 
-						<div style={{ justifyContent: "center", textAlign: "center", paddingTop: "40px" }}>
+						<div style={{ justifyContent: "center", textAlign: "center", paddingTop: "" }}>
 							<video id="my-video" ref={this.localVideoref} autoPlay muted style={{
-								borderStyle: "solid",borderColor: "#009bff",objectFit: "fill",width: "60%",height: "30%" , borderRadius:"10px"}}></video>
+								borderStyle: "solid",borderColor: "#009bff",objectFit: "fill",width: "auto",height: "auto" , borderRadius:"10px"}}></video>
 						</div>
 					</div>
 					:
 					<div>
-						<div className="btn-down" style={{ backgroundColor: "whitesmoke", color: "whitesmoke", textAlign: "center" }}>
+						<div className="btn-down" style={{ backgroundColor: "", color: "whitesmoke", textAlign: "center" }}>
 							<IconButton style={{ color: "#424242" }} onClick={this.handleVideo}>
 								{(this.state.video === true) ? <VideocamIcon /> : <VideocamOffIcon />}
 							</IconButton>
